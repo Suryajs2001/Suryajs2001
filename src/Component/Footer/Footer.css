@@ -1,0 +1,131 @@
+.App {
+    background-color: #13172d;
+    color: white;
+    font-family: sans-serif;
+    height: 340px;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  
+  .companylogo{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    margin-left: 750px;
+    margin-top: -120px;
+  }
+  
+  /* .container{
+    margin-left: 100px;
+    margin-right: 35px; */
+
+  
+ 
+  
+  .nav-links {
+    display: flex;
+    /* margin: 0px 0 0 150px; */
+    text-align: center;
+    padding: 15px;
+    gap: 70px;
+  
+  }
+  .nav-links li{
+    
+      font-weight: bold;
+      font-size: 1.5rem;
+      padding-top: 10px;
+    
+  }
+  
+  .nav-section {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+  
+  .nav-section p {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  
+  .nav-section ul {
+    list-style: none;
+  
+    
+    }
+    .nav-links p{
+      padding-left:51px;
+    }
+    .nav-section ul li{
+      margin-left: 60px;
+    }
+    .nav-section ul li:hover{
+      color: rgb(210, 210, 181);
+    }
+  
+  .nav-section li {
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    
+    display: flex;
+    margin-top: -140px;
+    float:right;
+    margin-right: 140px;
+    
+  }
+  
+  .social-links ul {
+    list-style: none;
+        
+  }
+  
+  .social-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1a73e8;
+    color: white;
+    margin: 10px;
+    
+  }
+  
+  
+
+  /* div hr{
+    padding-top: 50px;
+  } */
+  .footer {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 16px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 250px;
+    gap: 60px;
+  }
+  
+  .footer li {
+    font-size: 1rem;
+  }
+  
+ 

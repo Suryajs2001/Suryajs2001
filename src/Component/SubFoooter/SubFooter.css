@@ -1,0 +1,77 @@
+
+  .containersubFooter {
+    display: flex; 
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color:#131313;
+    
+  }
+  
+  .subFooterhead {
+    font-size: 54px;
+    font-weight: 600;
+    margin-left:-710px;
+    position: absolute;
+    margin-top: 70px;
+    color: #fcfcfc;
+  }
+  
+  .subFooterpara1 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fcfcfc;
+    margin-left:-700px;
+    position: absolute;
+    margin-top: 240px;
+
+  }
+  .subFooterpara2{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fcfcfc;
+    margin-left:-920px;
+    position: absolute;
+    margin-top: 380px;
+  }
+  
+  .subFooterbtn {
+    background-color: #3498DB;
+    /* color: #fff; */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    margin-left:-900px;
+    margin-top: 300px;
+
+    transition: background-color 0.3s ease;
+  }
+  
+  .subFooterbtn:hover {
+    background-color: #2980B9;
+  }
+  
+ 
+   .subFooterimage {
+    width: 600px;
+    height: 560px;
+    object-fit: cover;
+    margin-left: 500px;
+    border-radius: 15px;
+  } 
+  
+  /* .subFooterlogo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #20232A;
+    font-size: 24px;
+  } */

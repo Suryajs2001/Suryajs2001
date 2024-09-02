@@ -1,0 +1,238 @@
+/* SystemDesgin */
+.SystemDesginMain{
+    height: 750px;
+    width: 900px;
+    background-color: #fff;
+    margin: 70px 100px 50px 170px;  
+    border-radius: 15px;
+    box-shadow: 0px 26px 18px rgba(0, 0, 0,1.6);
+    
+}
+.systemD-head{
+  font-size: 26px;
+  font-weight: 700;
+  text-align: justify;
+  padding: 20px 170px 0px 170px;
+  padding-top:20px;
+  color: #007bff;
+
+}
+
+.SystemDesginMain p{
+  padding: 10px 100px 0px 100px;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+.systen-btn{
+    margin-left: 380px;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 100px;
+    background-color:#007bff;
+    border-radius: 5px;
+}
+
+
+
+
+/* Fundamental Course */
+.Funda-container{
+    width: 1000px;
+    height: 1000px;
+
+    background-color: #fff;
+    margin: 70px 100px 50px 170px;  
+    border-radius: 15px;
+    box-shadow: 0px 26px 18px rgba(0, 0, 0,1.6);
+}
+.title{
+    margin-left: 180px;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 30px;
+    color: #007bff;
+
+}
+.description{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.section-title1{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-title{
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 600;
+}
+ul li p{
+    margin-left: 150px;
+    font-size: 18px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.conclusion{
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 10px 40px 0px 70px;
+    text-align: justify;
+
+}
+
+
+/* full stack development */
+.fullStack-container{
+  height: 740px;
+  width: 800px;
+  background-color: #fff;
+  margin: 90px auto;  
+  border-radius: 15px;
+  box-shadow: 0px 26px 18px rgba(0, 0, 0,1.6);
+}
+.FullStack-title{
+    padding: 40px 60px 0px 80px;
+    font-size: 29px;
+    font-weight: 700;
+    color: #007bff;
+
+}
+.fullStack-container p{
+    margin-left: 30px;
+    margin-right: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+.fullstack-btn{
+    padding: 15px 30px;
+    margin: 50px 290px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* DataAlgorithm */
+
+
+  body{
+    
+        background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,70,255,1) 100%);
+      
+  } 
+  .algo-container {
+    background-color: white;
+    width: 900px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+      margin: 70px 100px 50px 170px;  
+    border-radius: 15px;
+     box-shadow: 0px 26px 18px rgba(0, 0, 0,1.6);
+
+  }
+  
+  .algo-title {
+    font-size: 36px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    padding-left: 60px;
+    color: green;
+  }
+  
+  .algo-description {
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .algo-btn {
+    background-color:#007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+  /* app development */
+  .Appcontainer {
+    max-width: 1000px;
+    height: 1260px;
+    background-color: #fff;
+    margin: 70px 100px 50px 170px;  
+    border-radius: 15px;
+     box-shadow: 0px 26px 18px rgba(0, 0, 0,1.6);
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .Apptitle {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color */
+  }
+  
+  .Appdescription {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .Appsubtitle {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .Appbenefits {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Appbenefits li {
+    margin-bottom: 20px;
+  }
+  
+  .Appbenefits h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .Appbenefits p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-left: 80px;
+  }
+  
+  .call-to-action {
+    margin-top: 10px;
+  }
+  
+  .Appapply-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Appapply-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }

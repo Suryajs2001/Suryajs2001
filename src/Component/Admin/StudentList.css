@@ -1,0 +1,101 @@
+/* General container styling */
+.studentlist {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+} 
+
+/* Title styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.studenthead {
+    background-color: #007BFF;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Row styling */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Button styling */
+.studentbtnn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.studentbtnn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: right;
+    }
+
+    th {
+        background-color: #f9f9f9;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        border: none;
+    }
+
+    tbody td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody td:last-child {
+        border-bottom: 0;
+    }
+}

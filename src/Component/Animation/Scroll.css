@@ -1,0 +1,139 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .container11{
+    position: sticky;
+    top: 90px;
+    height: 430px;
+    width: 700px;
+    border-radius: 15px;
+    background-color: white;    
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+.con11-head{
+  font-size: 46px;
+  font-weight: bold;
+  color: #007bff;
+}
+.con11-div-img{
+  display: flex;
+  align-items: center;
+}
+.con11-img{
+  width: 74%;
+  padding:20px 0px 0px 150px;
+  
+}
+
+
+
+      
+  .container22{
+    border-radius: 15px;
+    position: sticky;
+    top: 110px;
+    height: 450px;
+    width: 750px;
+    margin-bottom: 40px;
+    background:#ffffff;
+  }
+  .subcontainer22{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+  .img-box2{
+    padding-top: 50px;
+  }
+  .img1-box2{
+   width: 300px;
+  }
+  .head-box2{
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  .para-box22{
+      font-size: 20px;
+      font-family:  sans-serif;
+  }
+  .container33{
+    position: sticky;
+    top: 130px;
+    height: 500px;
+    width:800px;
+    border-radius: 15px;
+    background:white;
+  }
+ 
+  .con-11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85%;
+   
+  }
+  .boxc3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  
+  .box11 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    padding: 40px 30px 30px 35px;
+    text-align: center;
+    width: 200px;
+    height:150px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box11:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .box11 h1{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+
+
+ 
+ 
+  .container44{
+    height: 520px;
+    position: sticky;
+     top: 140px;
+    width: 870px;
+    border-radius: 15px;
+     background:rgb(249, 238, 238); 
+  }
+  
+
+
+ 
+  /* .container55{
+    height: 800px;
+    position: sticky;
+    top: 160px;
+    width: 900px;
+    border-radius: 15px;
+    background-image: url('img55.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  } */
