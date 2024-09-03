@@ -3,6 +3,7 @@ import React from 'react'
 import Scrolling from '../Animation/Scrolling'
 import SubFooter from '../SubFoooter/SubFooter'
 import Popup from '../Pop-Up/Popup'
+import Banner from '../Banner-Home/Banner'
 export default function Home() {
     return (
        <>
@@ -10,7 +11,7 @@ export default function Home() {
        <div className='home'>
          <div className='home-text'>  </div>
        </div>
-       
+       <Banner/>
        <Scrolling/>
        <SubFooter/>
        </>
